@@ -1,6 +1,10 @@
 # TFM
 Treball final de Màster en intel·ligència artificial sobre "Denoising Diffusion implicit models" .
 
+## Fitxers i carpetes dins d'aquest repositori
+
+* Denoising_Diffusion_Implicit_Models.ipynb : Implementació d'un DDIM amb Google Colab per la generació de flors. 
+
 ## Tutorials i codis
 **Implementació simple d'un DDIM** https://keras.io/examples/generative/ddim/
 
