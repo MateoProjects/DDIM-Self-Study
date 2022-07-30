@@ -16,3 +16,7 @@ Treball final de Màster en intel·ligència artificial sobre "Denoising Diffusi
 * Hierarchical Text-Conditional Image Generation with CLIP Latents :  https://arxiv.org/pdf/2204.06125.pdf <- Dall·e 2
 
 
+## Links d'interés
+
+* Repositori CLIP https://github.com/openai/CLIP
+* HuggingFace CLIP https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPVisionModel <- Amb Pytorch i TensorFlow
