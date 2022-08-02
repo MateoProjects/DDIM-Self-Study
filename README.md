@@ -6,9 +6,9 @@ Treball final de Màster en intel·ligència artificial sobre "Denoising Diffusi
 * Denoising_Diffusion_Implicit_Models.ipynb : Implementació d'un DDIM amb Google Colab per la generació de flors. 
 
 ## Tutorials i codis
-**Implementació simple d'un DDIM** https://keras.io/examples/generative/ddim/
-**Implementació de Dall-e https://github.com/lucidrains/DALLE-pytorch
-**Implementació de Dall-e 2** https://github.com/lucidrains/dalle2-pytorch 
+* **Implementació simple d'un DDIM** https://keras.io/examples/generative/ddim/
+* **Implementació de Dall-e** https://github.com/lucidrains/DALLE-pytorch
+* **Implementació de Dall-e 2** https://github.com/lucidrains/dalle2-pytorch 
 
 ## Papers llegits
 
