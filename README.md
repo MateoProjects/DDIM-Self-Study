@@ -1,16 +1,17 @@
 # TFM
-Treball final de Màster en intel·ligència artificial sobre "Denoising Diffusion implicit models" .
 
-## Fitxers i carpetes dins d'aquest repositori
+Master's final project in artificial intelligence on "Denoising Diffusion implicit models".
+
+## Files and folders
 
 * Denoising_Diffusion_Implicit_Models.ipynb : Implementació d'un DDIM amb Google Colab per la generació de flors. 
 
-## Tutorials i codis
+## Tutorials followed and codes
 * **Implementació simple d'un DDIM** https://keras.io/examples/generative/ddim/
 * **Implementació de Dall-e** https://github.com/lucidrains/DALLE-pytorch
 * **Implementació de Dall-e 2** https://github.com/lucidrains/dalle2-pytorch 
 
-## Papers llegits i referències
+## Papers and references studied
 
 * DENOISING DIFFUSION IMPLICIT MODELS : https://arxiv.org/pdf/2010.02502.pdf
 * DEMYSTIFYING MMD GANS : https://arxiv.org/pdf/1801.01401.pdf <- En aquest paper es presenta la mètrica Kernel Inception Distance
@@ -19,7 +20,7 @@ Treball final de Màster en intel·ligència artificial sobre "Denoising Diffusi
 * High-Resolution Image Synthesis with Latent Diffusion Models : https://arxiv.org/pdf/2112.10752.pdf <- Stable diffusion 
 
 
-## Links d'interés
+## Links of interest
 
 * Repositori CLIP https://github.com/openai/CLIP
 * HuggingFace CLIP https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPVisionModel <- Amb Pytorch i TensorFlow
