@@ -1,0 +1,5 @@
+diffusers 
+transformers>=4.17.0
+scipy 
+ftfy
+"ipywidgets>=7,<8"
