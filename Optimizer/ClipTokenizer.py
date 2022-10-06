@@ -15,5 +15,5 @@ def encoding_text(ids):
 def decoding_text(encoders):
     pass
 
-def variable_optimization():
-    pass
+
+
