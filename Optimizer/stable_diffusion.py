@@ -14,9 +14,9 @@ class StableDiffusion():
 
 
     def generate_image(self,prompt, num_inference_steps=50, guidance_scale=7.5, seedGen=1023):
-        generator = torch.Generator("cuda").manual_seed(seedGen)
-        self.image = self.pipe(prompt, height=256, width=256, 
+        #generator = torch.Generator("cuda").manual_seed(seedGen)
+        self.image = self.pipe(prompt, height=512, width=512, 
                 num_inference_steps=num_inference_steps,
-                guidance_scale=guidance_scale,
-                generator=generator)["sample"]
+                guidance_scale=guidance_scale)["sample"]
         return self.image
+    
