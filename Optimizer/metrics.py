@@ -1,6 +1,6 @@
 from scipy.linalg import norm
 from scipy import sum, average
-from scipy.misc import imread
+from sewar import mse
 from skimage.metrics import structural_similarity as ssim
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,8 +14,8 @@ import cv2
 
 file1 = " "
 file2 = " "
-img1 = imread(file1).astype(float)
-img2 = imread(file2).astype(float)
+img1 = cv2.imread(file1)
+img2 = cv2.imread(file2)
 
 def to_grayscale(arr):
     "If arr is a color image (3D array), convert it to grayscale (2D array)."
@@ -51,8 +51,11 @@ def compute_difference_image(img1, img2):
 
 
 ########################################################################
+#                   MSE and Structural Similarity                      #
+########################################################################
 
-def mse(imageA, imageB):
+
+def mse_2(imageA, imageB):
 	# the 'Mean Squared Error' between the two images is the
 	# sum of the squared difference between the two images;
 	# NOTE: the two images must have the same dimension
@@ -63,6 +66,8 @@ def mse(imageA, imageB):
 	# the two images are
 	return err
 
+def loss_function_mse(imageA, imageB):
+	return mse(imageA, imageB)
 
 def compare_images(imageA, imageB, title):
 	# compute the mean squared error and structural similarity

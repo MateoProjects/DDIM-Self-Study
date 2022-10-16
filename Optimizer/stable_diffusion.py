@@ -5,7 +5,7 @@ import torch
 
 class StableDiffusion():
     def __init__(self, precision_high):
-        with open('Optimizer\\token.txt') as f:
+        with open('token.txt') as f:
             token = f.readline()
         if precision_high:
             self.pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", use_auth_token=token)
